@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Astro-Waterfall Map</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+</head>
+<body>
+  <div id="map-overlay">
+    <button id="close-overlay">✖</button>
+    <h2>Astro-Waterfall Map 🌌</h2>
+    <p>
+      Based on your astrocartography chart, I’ve highlighted waterfalls that align with key planetary lines. 
+      Each waterfall represents unique planetary energy—Venus (Harmony), Jupiter (Adventure), and Moon (Reflection). 
+      Click on the markers to explore!
+    </p>
+  </div>
+  
+  
+
+  <div id="map"></div>
+
+  <div id="intro-screen">
+    <h1 style="font-size: 3em; font-weight: 700; font-family: 'Playfair Display', serif;">Hi Angela!✨</h1>
+    <p style="font-size: 1.2em; max-width: 600px;">
+      I'm your Secret Knackster, and I created something special for you! This is based on the assumption
+      that your birthday is <strong>December 1, 1991</strong> and your birthplace is <strong>Medellín, Colombia</strong>.
+      If I got it wrong... just laugh at me and enjoy anyway! 😂
+    </p>
+    <button id="start-button">Click to Continue</button>
+  </div>  
+  
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/static/js/script.js"></script>
+</body>
+</html>
