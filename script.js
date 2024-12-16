@@ -33,17 +33,17 @@ map.on('drag', function () {
 
 // Custom marker icons
 const venusIcon = L.icon({
-  iconUrl: 'static/icons/venus-icon.png', 
+  iconUrl: 'https://marosan28.github.io/secret-santa/static/icons/venus-icon.png', 
   iconSize: [32, 32],
 });
 
 const jupiterIcon = L.icon({
-  iconUrl: 'static/icons/jupiter-test.png', 
+  iconUrl: 'https://marosan28.github.io/secret-santa/static/icons/jupiter-test.png', 
   iconSize: [40, 40],
 });
 
 const moonIcon = L.icon({
-  iconUrl: 'static/icons/moon-icon.png', 
+  iconUrl: 'https://marosan28.github.io/secret-santa/static/icons/moon-icon.png', 
   iconSize: [32, 32],
 });
 
