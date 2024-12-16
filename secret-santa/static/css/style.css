@@ -11,7 +11,9 @@ body {
     font-family: 'Poppins', sans-serif;
   }
   
-
+.em {
+  margin-top: 5px;
+}
   #map {
     height: 100vh; /* Full screen height */
     width: 100vw; /* Full screen width */
@@ -157,14 +159,15 @@ body {
 .legend .icon img {
   height: auto;
   max-height: 24px; /* Set consistent height */
-  max-width: 30px; /* Allow Jupiter to be wider without breaking the layout */
-}
-
-.legend .icon img.jupiter-icon {
-  max-width: 40px; /* Extra width for Jupiter’s rings */
 }
 
 /* Add spacing between rows */
 .legend .icon {
   display: contents; /* Simplifies grid layout handling */
 }
+
+.leaflet-popup-content {
+  max-height: 200px; /* Limit popup height */
+  overflow-y: auto; /* Add vertical scroll when content overflows */
+}
+
