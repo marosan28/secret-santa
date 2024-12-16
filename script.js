@@ -33,7 +33,7 @@ map.on('drag', function () {
 
 // Custom marker icons
 const venusIcon = L.icon({
-  iconUrl: '/static/icons/venus-icon.png', 
+  iconUrl: 'static/icons/venus-icon.png', 
   iconSize: [32, 32],
 });
 
